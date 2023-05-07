@@ -2,10 +2,11 @@
 @section('content')
 
     <head>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/home/home.css') }}">
     </head>
 
     <body>
+
         <div class="full-height">
             <br>
             <div class="banner">
@@ -18,40 +19,76 @@
 
                 <div id="Accessories" class="tabcontent">
                     <div class="imgHover">
-                        <img src="https://thumbs.dreamstime.com/b/horizontal-banner-stationery-supplies-accessories-lessons-items-education-back-to-school-sale-horizontal-banner-122588507.jpg" alt="Avatar" class="image">
+                        <img src="https://thumbs.dreamstime.com/b/horizontal-banner-stationery-supplies-accessories-lessons-items-education-back-to-school-sale-horizontal-banner-122588507.jpg"
+                            alt="Avatar" class="image">
                         <div class="overlay">
-                          <div class="text"><button class="btn btn-success">Visit Now</button></div>
+                            <div class="text"><button class="btn btn-success">Visit Now</button></div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div id="Foods & Drinks" class="tabcontent">
                     <div class="imgHover">
-                        <img src="https://www.everydayonsales.com/wp-content/uploads/2021/09/Sweet-Hut-Lunch-Set-Promotion.jpg" alt="Avatar" class="image">
+                        <img src="https://www.everydayonsales.com/wp-content/uploads/2021/09/Sweet-Hut-Lunch-Set-Promotion.jpg"
+                            alt="Avatar" class="image">
                         <div class="overlay">
-                          <div class="text"><button class="btn btn-success">Order Now</button></div>
+                            <div class="text"><button class="btn btn-success">Order Now</button></div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div id="Cloths & wear" class="tabcontent">
                     <div class="imgHover">
-                        <img src="https://prodrive.co.nz/spree/slides/9/original/website_promotion_banner_2.jpg?1676363023" alt="Avatar" class="image">
+                        <img src="https://prodrive.co.nz/spree/slides/9/original/website_promotion_banner_2.jpg?1676363023"
+                            alt="Avatar" class="image">
                         <div class="overlay">
-                          <div class="text"><button class="btn btn-success">Buy Now</button></div>
+                            <div class="text"><button class="btn btn-success">Buy Now</button></div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-
                 <div id="More" class="tabcontent">
                     <div class="imgHover">
                         <img src="img/salesPic.png" alt="Sales" class="image">
                         <div class="overlay">
-                          <div class="text"><button class="btn btn-success">Visit More</button></div>
+                            <div class="text"><button class="btn btn-success">Visit More</button></div>
                         </div>
-                      </div>
+                    </div>
                 </div>
+                <br>
+                <center>
+                    <div class="grid-promo">
+                        <div>
+                            <div class="card" style="background: rgba(255, 255, 0, 0.308)">
+                                <img src="promotion-image.jpg" alt="Promotion Image">
+                                <div class="container">
+                                  <h6><b>Summer Sale</b></h6>
+                                  <a href="#" class="btn">Shop Now</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div>
+                            <div class="card" style="background: rgba(0, 255, 115, 0.308)">
+                                <img src="promotion-image.jpg" alt="Promotion Image">
+                                <div class="container">
+                                  <h6><b>Summer Sale</b></h6>
+                                  <a href="#" class="btn">Claim Now</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div>
+                            <div class="card" style="background: rgba(183, 0, 255, 0.308)">
+                                <img src="promotion-image.jpg" alt="Promotion Image">
+                                <div class="container">
+                                  <h6><b>Summer Sale</b></h6>
+                                  <a href="#" class="btn">View More</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </center>
+
             </div>
+
         </div>
         <script>
             function openCity(evt, cityName) {
