@@ -11,6 +11,7 @@ html,
             }
 
             .banner {
+                position: relative;
                 width: 80%;
                 height: 50%;
                 margin: 0 auto;
@@ -19,6 +20,28 @@ html,
   padding: 20px;
   border-radius: 10px;
             }
+
+            .grid-promo {
+                position: absolute;
+                width: 80%;
+                top: 330px;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 6px;
+  grid-row-gap:6px;
+                display: grid;
+                grid-template-columns: 40% 40% 40%;
+                gap: 10px;
+                background-color: white;
+                padding: 10px;
+              }
+
+              .grid-promo > div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                padding: 10px 0;
+                font-size: 18px;
+                width: 100%;
+              }
 
 /* Style the tab */
 .tab {
