@@ -42,7 +42,10 @@
 
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div class="container-fluid" style="margin-left: 100px; margin-right: 100px">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="/" style="color:#1E90FF; font-weight: 600;">
+                <img src="img/logo_petakomMart.png" alt="Logo" style="height: 70px; width: 70px;">
+                PETAKOM MART
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -73,11 +76,11 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     </ul>
-                    <a href="" style="text-decoration: none; color: grey;">&nbsp;<i
-                            class="fa fa-shopping-cart" style="font-size: 22px; "></i><br>Cart</a>
+                    <a href="" style="text-decoration: none; color: grey;">&nbsp;<i class="fa fa-shopping-cart"
+                            style="font-size: 22px; "></i><br>Cart</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="" style="text-decoration: none; color: grey;">&nbsp;&nbsp;&nbsp;<i class="fa fa-user"
-                            style="font-size: 22px;"></i><br>Login</a>
+                    <a href="" style="text-decoration: none; color: grey;">&nbsp;&nbsp;&nbsp;<i
+                            class="fa fa-user" style="font-size: 22px;"></i><br>Login</a>
                 </div>
             </div>
         </div>
@@ -85,28 +88,31 @@
 
     <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
         <div class="container-fluid" style="margin-left: 100px; margin-right: 100px;">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 Categories
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-bars"></i> All Category</a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-bars"></i> All
+                        Category</a>
                     <a class="nav-link" href="#">Hot Offer</a>
                     <a class="nav-link" href="#">Gif Box</a>
                     <a class="nav-link disabled">Projects</a>
                     <a class="nav-link" href="#">Menu Item</a>
                     <li class="nav-item dropdown">
-                        <button class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                          Helps
+                        <button class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Helps
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                      </li>
+                    </li>
 
                 </div>
             </div>
