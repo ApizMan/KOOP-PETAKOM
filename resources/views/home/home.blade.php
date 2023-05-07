@@ -42,7 +42,7 @@
                         </div>
                       </div>
                 </div>
-
+hashd
                 <div id="More" class="tabcontent">
                     <div class="imgHover">
                         <img src="img/salesPic.png" alt="Sales" class="image">
